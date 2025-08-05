@@ -1,0 +1,17 @@
+version: 1.0
+date: 2025-08-03
+criteria:
+  - conditions:
+      - column: age
+        operator: "<"
+        value: 18
+      - column: country
+        operator: "=="
+        value: "UK"
+  - conditions:
+      - column: age
+        operator: ">="
+        value: 18
+      - column: country
+        operator: "=="
+        value: "US"

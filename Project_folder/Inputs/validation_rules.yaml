@@ -1,0 +1,18 @@
+version: 1.0
+date: 2025-08-03
+columns:
+  - name: individual_id
+    type: integer
+  - name: age
+    type: integer
+    min: 0
+    max: 120
+    outlier_threshold: 3
+  - name: income
+    type: numeric
+    min: 0
+    max: 1000000
+    outlier_threshold: 3
+  - name: country
+    type: categorical
+    allowed_values: ["UK", "US", "CA"]
